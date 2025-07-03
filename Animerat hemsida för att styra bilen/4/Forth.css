@@ -1,0 +1,107 @@
+body
+{
+  margin : 0 ;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  overflow: hidden;
+}
+  
+.night
+{
+  height: 80vh;
+  width: 70vw;
+  border: 1px solid black;
+  margin: 5rem auto;
+  background: url(/IMG/Whole-background.png);
+  background-size: cover;
+  position: relative;
+  box-shadow:1px 2px 60px rgba(0,0,0,0.4);
+  overflow-x: hidden;
+}
+    
+.surface
+{
+  height: 140px;
+  width: 500%;
+  background: url(/IMG/Background.png);
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background-repeat: repeat-x;
+}
+  
+.car
+{
+  position: absolute;
+  bottom: 8%;
+  left: 24%;
+}
+  
+/* Animation of the car, we create a keyframe and specify name to it */
+  
+@keyframes moveRight
+{
+  100%{
+    transform: translateX(-2950px)
+  }
+}
+  
+@keyframes suspension
+{
+  100%{
+    transform: translateY(-1px);
+  }
+  50%{
+    transform: translateY(2px);
+  }
+  0%{
+    transform: translateY(-1px);
+  }
+}
+  
+.moveRight
+{
+  animation: moveRight 6s linear infinite;
+}
+  
+.suspension
+{
+  animation: suspension 1s linear infinite;
+}
+  
+.btn
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20;
+  padding: 20px 100px 20px 100px;
+  border-radius: 50px;
+  border: #fa709a 2px solid;  
+  background-color: #fee140;
+  font-size: large;
+  font-weight: bold;
+}
+  
+.btndiv
+{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 50px;
+  margin-top: -70px;
+}
+  
+.btn:hover
+{
+  background-color: #fa709a;
+  color: #fee140;
+  border: #fee140 2px solid;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
