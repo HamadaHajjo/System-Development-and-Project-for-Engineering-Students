@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("/IMG/Whole-background.png");
+  background-size: cover;
+}
+
+.maindiv {
+  height: 600px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #fa709a;
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  margin-top: 10px;
+  color: #fee140;
+  font-size: 40px;
+  font-family: "Lobster", cursive;
+  text-shadow: 2px 2px #fa709a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+li {
+  margin-top: 20px;
+  color: #0c0c0c;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fee140;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #fa709a;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fee140;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #fee140;
+  color: #fa709a;
+}
