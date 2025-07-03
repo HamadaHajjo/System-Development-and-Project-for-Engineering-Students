@@ -1,0 +1,68 @@
+body {
+  background-image: url("/IMG/Whole-background.png");
+  background-size: cover;
+}
+
+#square {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 600px;
+  padding: 20px;
+}
+
+/* Style the input fields */
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: #fa709a;
+  color: #fee140;
+  font-size: 16px;
+  font-family: "Lobster", cursive;
+  text-shadow: 2px 2px #fa709a;
+  text-align: center;
+  outline: none;
+}
+
+/* Style the button */
+button[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 200px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+button:hover {
+  background-color: #fa709a;
+  color: #fee140;
+  border: #fee140 2px solid;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  color: #fee140;
+  font-size: 40px;
+  font-family: "Lobster", cursive;
+  text-shadow: 2px 2px #fa709a;
+}
+
+label {
+  color: #fee140;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  text-shadow: 1px 1px #fa709a;
+}
